@@ -1,0 +1,18 @@
+#field {
+    border: 1px solid #000000;
+    position:relative;
+    z-index:1000;
+}
+.cannon {
+    position: absolute;
+    z-index:10000;
+}
+.ballet {
+    position: absolute;
+    z-index:10000;
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.ballet_basic {
+    background-image: url("../img/BasicBallet.png")
+}
